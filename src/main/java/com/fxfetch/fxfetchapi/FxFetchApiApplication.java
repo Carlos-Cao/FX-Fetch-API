@@ -1,4 +1,4 @@
-package com.fxfetch.fx_fetch_api;
+package com.fxfetch.fxfetchapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

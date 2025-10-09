@@ -1,7 +1,7 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The original package name 'com.fxfetch.fx-fetch-api' is invalid and this project uses 'com.fxfetch.fx_fetch_api' instead.
+* The original package name 'com.fxfetch.fx-fetch-api' is invalid and this project uses 'com.fxfetch.fxfetchapi' instead.
 
 # Getting Started
 
