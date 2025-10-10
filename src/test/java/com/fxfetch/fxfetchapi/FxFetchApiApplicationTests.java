@@ -1,4 +1,4 @@
-package com.fxfetch.fx_fetch_api;
+package com.fxfetch.fxfetchapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
