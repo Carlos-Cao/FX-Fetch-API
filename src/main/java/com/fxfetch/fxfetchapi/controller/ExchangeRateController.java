@@ -25,11 +25,7 @@ public class ExchangeRateController {
     }
 
     @GetMapping("/convert")
-    public Map<String, Object> convert(
-            @RequestParam String from,
-            @RequestParam String to,
-            @RequestParam double amount
-    ) {
+    public Map<String, Object> convert(@RequestParam String from, @RequestParam String to, @RequestParam double amount) {
         return exchangeRateService.convertCurrency(from, to, amount);
     }
 }

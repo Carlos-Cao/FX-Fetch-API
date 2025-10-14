@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: fx-fetch-api
+
+exchange-rate:
+  api:
+    key: ${exchange-rate.api.key}
