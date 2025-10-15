@@ -11,7 +11,7 @@ import java.util.Map;
 @Service
 public class ExchangeRateService {
 
-    @Value("${exchangerate.api.key}")
+    @Value("${exchange-rate.api.key}")
     private String apiKey;
 
     private static final String BASE_URL = "https://v6.exchangerate-api.com/v6/";
