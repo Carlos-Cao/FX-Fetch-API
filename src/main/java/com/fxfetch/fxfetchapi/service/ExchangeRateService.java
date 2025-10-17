@@ -42,4 +42,17 @@ public class ExchangeRateService {
         );
         return response.getBody();
     }
+
+    public Map<String, Object> getSupportedCurrencies() {
+        String url = BASE_URL + apiKey + "/codes";
+        RestTemplate restTemplate = new RestTemplate();
+        ResponseEntity<Map<String, Object>> response = restTemplate.exchange(
+                url,
+                HttpMethod.GET,
+                null,
+                new ParameterizedTypeReference<>() {
+                }
+        );
+        return response.getBody();
+    }
 }
